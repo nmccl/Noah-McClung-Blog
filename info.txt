@@ -1,0 +1,88 @@
+<!-- BLOG POST TEMPLATE -->
+<!-- Copy this template and replace the content for each new blog post -->
+
+<!-- 1. ADD TO BLOG INDEX: Copy this block and add it to the blog-content section -->
+<article class="blog-post" data-article="YOUR-ARTICLE-ID">
+    <h3><a href="#">YOUR BLOG POST TITLE</a></h3>
+    <div class="blog-meta">Published on MONTH DD, YYYY</div>
+    <p class="blog-excerpt">Write a compelling excerpt or summary of your blog post here. This should be 1-2 sentences that give readers a preview of what they'll learn or discover in your post.</p>
+</article>
+
+<!-- 2. ADD FULL ARTICLE: Copy this block and add it after the existing articles -->
+ <div id="article-YOUR-ARTICLE-ID" class="blog-article">
+  <div class="section">
+        <a href="#" class="back-button" onclick="showBlogIndex()">← Back to Blog</a>
+        
+        <div class="article-header">
+            <h1 class="article-title">YOUR BLOG POST TITLE</h1>
+            <div class="article-meta">Published on MONTH DD, YYYY by Noah McClung</div>
+        </div>
+
+        <div class="article-content">
+            <!-- START YOUR CONTENT HERE -->
+            <p>Your opening paragraph goes here. This should hook the reader and introduce the main topic of your post.</p>
+
+            <h2>First Major Section</h2>
+            <p>Write your content here. You can include multiple paragraphs, and they'll be properly spaced.</p>
+            
+            <p>Add another paragraph if needed. The styling will automatically handle spacing and typography.</p>
+
+            <h2>Second Major Section</h2>
+            <p>Continue with your content. You can use various HTML elements:</p>
+            
+            <h3>Subsection</h3>
+            <p>Use h3 tags for subsections within your main sections.</p>
+
+            <blockquote>
+                "You can add quotes using the blockquote element. This will give them special styling to make them stand out."
+            </blockquote>
+
+            <p>You can also create lists:</p>
+            <ul>
+                <li>First point in your list</li>
+                <li>Second point in your list</li>
+                <li>Third point in your list</li>
+            </ul>
+
+            <p>Or numbered lists:</p>
+            <ol>
+                <li>First step</li>
+                <li>Second step</li>
+                <li>Third step</li>
+            </ol>
+
+            <h2>Conclusion</h2>
+            <p>Wrap up your post with a conclusion that ties everything together and leaves the reader with something to think about.</p>
+            
+            <!-- END YOUR CONTENT HERE -->
+        </div>
+    </div>
+</div>
+
+<!-- 
+INSTRUCTIONS FOR PUBLISHING A NEW BLOG POST:
+
+1. Choose a unique article ID (use lowercase letters and hyphens, like "my-new-post")
+
+2. Replace all instances of "YOUR-ARTICLE-ID" with your chosen ID
+
+3. Replace "YOUR BLOG POST TITLE" with your actual title
+
+4. Replace "MONTH DD, YYYY" with your publication date
+
+5. Write your content between the "START YOUR CONTENT HERE" and "END YOUR CONTENT HERE" comments
+
+6. Add the blog post preview (first block) to the blog index section in the main website
+
+7. Add the full article (second block) to the main website after the existing articles
+
+STYLING TIPS:
+- Use <h2> for major sections
+- Use <h3> for subsections
+- Use <p> for paragraphs
+- Use <blockquote> for quotes
+- Use <ul> and <li> for bullet points
+- Use <ol> and <li> for numbered lists
+- Keep paragraphs focused - one main idea per paragraph
+- Use engaging subheadings to break up long content
+-->
